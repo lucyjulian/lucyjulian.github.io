@@ -1,0 +1,41 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #212d2c;
+  height: 150px;
+  padding: 20px;
+  color: #a8f48a;
+}
+
+.sig {
+  height: 100px;
+}
+
+.navtab {
+  font-family: 'Yeseva One', cursive;
+  position: relative;
+  bottom: 30px;
+  font-size: 1em;
+}
+
+.App-title {
+  font-size: 3em;
+  font-family: 'Cinzel', serif;
+}
+
+.App-intro {
+  font-size: large;
+  font-family: 'Carrois Gothic SC', sans-serif;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
