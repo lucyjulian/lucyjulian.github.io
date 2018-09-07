@@ -1,8 +1,10 @@
 import React from "react";
+import tree1 from "../../fotos/blurrytree.jpg";
 
 const About = () => (
-  <div>
-    <h1>About Page</h1>
+  <div backgroundImage={tree1}>
+    <p className="pagetitle">About Page</p>
+    {/* <img alt="tree1" src={tree1}></img> */}
     <p>
       Nunc pharetra finibus est at efficitur. Praesent sed congue diam. Integer gravida dui mauris,
       ut interdum nunc egestas sed. Aenean sed mollis diam. Nunc aliquet risus ac finibus porta. Nam

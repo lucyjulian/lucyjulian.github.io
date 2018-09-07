@@ -2,9 +2,9 @@ import React, { Component } from "react";
 import NavTabs from "./NavTabs";
 import Home from "./pages/Home";
 import About from "./pages/About";
-import Blog from "./pages/Blog";
+import Portfolio from "./pages/Portfolio";
 import Contact from "./pages/Contact";
-import sig from '../ladylikelogo.png';
+import sig from '../fotos/ladylikelogo.png';
 
 class PortfolioContainer extends Component {
   state = {
@@ -21,8 +21,8 @@ class PortfolioContainer extends Component {
         return <Home />;
       case "About":
         return <About />;
-      case "Blog":
-        return <Blog />;
+      case "Portfolio":
+        return <Portfolio />;
       case "Contact":
         return <Contact />;
       default:
@@ -34,16 +34,20 @@ class PortfolioContainer extends Component {
     return (
       <div className="App">
         <header className="App-header">
-          <img src={sig} className="sig" alt="sig" />
+          {/* <img src={sig} className="sig" alt="sig" /> */}
           <div>
             <NavTabs
               currentPage={this.state.currentPage}
               handlePageChange={this.handlePageChange}
             />
-            
           </div>
         </header>
-        {this.renderPage()}
+        <div className="loadpage">
+          {this.renderPage()}
+        </div>
+        <footer className="App-footer">
+          <p>© 2018 Lucy Julian</p>
+        </footer>
       </div>
     );
   }

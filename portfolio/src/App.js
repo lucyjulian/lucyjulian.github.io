@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import logo from './ljcircle.png';
+//import logo from './fotos/ljcircle.png';
 // import sig from './girlierchiller.png';
-import sig from './ladylikelogo.png';
+//import sig from './fotos/ladylikelogo.png';
 import './App.css';
 import PortfolioContainer from './components/PortfolioContainer';
 
