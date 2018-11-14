@@ -4,7 +4,7 @@ import Home from "./pages/Home";
 import About from "./pages/About";
 import Portfolio from "./pages/Portfolio";
 import Contact from "./pages/Contact";
-import sig from '../fotos/ladylikelogo.png';
+import ContactLinks from "./ContactLinks";
 
 class PortfolioContainer extends Component {
   state = {
@@ -45,8 +45,11 @@ class PortfolioContainer extends Component {
         <div className="loadpage">
           {this.renderPage()}
         </div>
+        <div className="logolinks">
+          <ContactLinks />
+        </div>
         <footer className="App-footer">
-          <p>© 2018 Lucy Julian</p>
+          <p>© Copyright 2018 Lucy Julian</p>
         </footer>
       </div>
     );

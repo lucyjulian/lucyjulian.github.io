@@ -35,8 +35,10 @@
   border-top-width: 2px;
   border-top-style: solid;
   border-bottom-color: #818cb5;
-  border-bottom-width: 2px;
+  border-bottom-width: 0px;
   border-bottom-style: solid;
+  border-right: #818cb5 solid 2px;
+  border-left: #818cb5 solid 2px;
 }
 
 .App-footer {
@@ -50,11 +52,13 @@
   border-width: 2px;
   border-style: solid; */
   border-top-color: #818cb5;
-  border-top-width: 2px;
+  border-top-width: 0px;
   border-top-style: solid;
   border-bottom-color: #818cb5;
   border-bottom-width: 2px;
   border-bottom-style: solid;
+  border-right: #818cb5 solid 2px;
+  border-left: #818cb5 solid 2px;
 }
 
 .loadpage {
@@ -68,6 +72,8 @@
   border-bottom-color: #818cb5;
   border-bottom-width: 2px;
   border-bottom-style: solid;
+  border-right: #818cb5 solid 2px;
+  border-left: #818cb5 solid 2px;
 }
 
 .pagetitle {
@@ -105,6 +111,31 @@
 .App-intro {
   font-size: large;
   font-family: 'Carrois Gothic SC', sans-serif;
+}
+
+.fab {
+  color:#818cb5;
+}
+.fab:hover {
+  color: #f2f48a;
+}
+
+.connectwithme {
+  color: #a8f48a;
+  font-family: 'Oxygen', sans-serif;
+  font-size: 18px;
+  
+}
+
+.logolinks {
+  border-right: #818cb5 solid 2px;
+  border-left: #818cb5 solid 2px;
+  border-bottom: #818cb5 solid 2px;
+  padding: 20px;
+}
+
+.boutmeblurb {
+  color: #818cb5;
 }
 
 @keyframes App-logo-spin {

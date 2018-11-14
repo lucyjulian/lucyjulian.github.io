@@ -2,7 +2,7 @@ import React from "react";
 
 const Portfolio = () => (
   <div>
-    <p className="pagetitle">Blog Page</p>
+    <p className="pagetitle">Past Projects</p>
     <p>
       Donec a volutpat quam. Curabitur nec varius justo, sed rutrum ligula. Curabitur pellentesque
       turpis sit amet eros iaculis, a mollis arcu dictum. Ut vel ante eget massa ornare placerat.

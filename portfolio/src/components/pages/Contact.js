@@ -2,7 +2,7 @@ import React from "react";
 
 const Contact = () => (
   <div>
-    <p className="pagetitle">Contact Page</p>
+    <p className="pagetitle">Contact Me</p>
     <p>
       Integer cursus bibendum sem non pretium. Vestibulum in aliquet sem, quis molestie urna.
       Aliquam semper ultrices varius. Aliquam faucibus sit amet magna a ultrices. Aenean
