@@ -77,10 +77,11 @@
 }
 
 .pagetitle {
-  color: #818cb5;
+  color: #a8f48a;
   font-family: 'Oxygen', sans-serif;
   padding: 10px;
-  font-size: 30px;
+  font-size: 24px;
+  border-bottom: #f2f48a 1px solid;
 }
 
 .navtab {
@@ -132,11 +133,49 @@
   border-left: #818cb5 solid 2px;
   border-bottom: #818cb5 solid 2px;
   padding: 20px;
+
 }
 
 .boutmeblurb {
   color: #818cb5;
+  padding: 10px;
 }
+
+.boutmeparagraph {
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: left;
+  font-size: 14px;
+  font-family: 'Oxygen', sans-serif;
+}
+
+.contactmeform {
+  padding: 20px;
+  border: #818cb5 solid 2px;
+}
+
+.Button {
+  color: #212d2c;
+  background-color: #818cb5;
+  font-family: 'Oxygen', sans-serif;
+}
+
+.Button:hover {
+  color: #212d2c;
+  background-color: #f2f48a;
+  font-family: 'Oxygen', sans-serif;
+}
+
+.projectTitle {
+  color: #818cb5;
+  font-family: 'Oxygen', sans-serif;
+}
+
+.projectText {
+  color: #818cb5;
+  font-family: 'Oxygen', sans-serif;
+}
+
 
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
