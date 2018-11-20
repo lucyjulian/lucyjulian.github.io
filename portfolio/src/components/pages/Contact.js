@@ -6,23 +6,25 @@ const Contact = () => (
 
     <div classnname="contactmeform">
       <form class="contactform" action="mailto:ljulian@alumni.unc.edu" method="post" enctype="text/plain">
-          <p>Name</p>
+          <p></p>
                       
-          <input type="text" name="Name" placeholder="John Smith"></input>
+          <input type="text" name="Name" placeholder="Name"></input>
                       
-          <p>Email</p>
+          <p></p>
                       
-          <input type="text" name="Email" placeholder="example@gmail.com"></input>
+          <input type="text" name="Email" placeholder="Email"></input>
                       
-          <p>Message</p>
+          <p></p>
                       
-          <input id="messagebox" type="text" name="Message" placeholder="Write your message here"></input>
+          <textarea id="messagebox" type="text" rows="5" name="Message" placeholder="Write your message here"></textarea>
                           
-          
+          <br></br>
 
-          <input class="button" type="submit" value="Submit"></input>
+          <input class="button" id="submitButton" type="submit" value="Submit"></input>
       </form>
     </div>
+
+    <br></br>
   </div>
 );
 

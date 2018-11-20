@@ -77,18 +77,18 @@ const Portfolio = () => (
       <br></br>
       <Row>
         <Card body inverse style={{ backgroundColor: '#212d2c', borderColor: '#818cb5' }}>
-          <CardTitle className="projectTitle">Special Title Treatment</CardTitle>
-          <CardText className="projectText">With supporting text below as a natural lead-in to additional content.</CardText>
+          <CardTitle className="projectTitle">Reset Your Residence</CardTitle>
+          <CardText className="projectText">A group project using API's to allow users to search and explore a new city.</CardText>
           <Row>
             <Col></Col>
             <Col></Col>
             <Col></Col>
             <Col></Col>
             <Col>
-              <Button className="Button">Demo</Button>
+              <Button href="https://lucyjulian.github.io/Reset-My-Residence/" target="_blank" className="Button">Demo</Button>
             </Col>
             <Col>
-              <Button className="Button">Github</Button>
+              <Button href="https://github.com/lucyjulian/Reset-My-Residence" target="_blank" className="Button">Github</Button>
             </Col>
             <Col></Col>
             <Col></Col>
@@ -100,18 +100,18 @@ const Portfolio = () => (
       <br></br>
       <Row>
         <Card body inverse style={{ backgroundColor: '#212d2c', borderColor: '#818cb5' }}>
-          <CardTitle className="projectTitle">Special Title Treatment</CardTitle>
-          <CardText className="projectText">With supporting text below as a natural lead-in to additional content.</CardText>
+          <CardTitle className="projectTitle">GIF Generator</CardTitle>
+          <CardText className="projectText">Load, pause, and play GIFs at the click of a button.</CardText>
           <Row>
             <Col></Col>
             <Col></Col>
             <Col></Col>
             <Col></Col>
             <Col>
-              <Button className="Button">Demo</Button>
+              <Button href="https://lucyjulian.github.io/giphy_ajax/" target="_blank" className="Button">Demo</Button>
             </Col>
             <Col>
-              <Button className="Button">Github</Button>
+              <Button href="https://github.com/lucyjulian/giphy_ajax" target="_blank" className="Button">Github</Button>
             </Col>
             <Col></Col>
             <Col></Col>
@@ -123,18 +123,18 @@ const Portfolio = () => (
       <br></br>
       <Row>
         <Card body inverse style={{ backgroundColor: '#212d2c', borderColor: '#818cb5' }}>
-          <CardTitle className="projectTitle">Special Title Treatment</CardTitle>
-          <CardText className="projectText">With supporting text below as a natural lead-in to additional content.</CardText>
+          <CardTitle className="projectTitle">Crystals Collector</CardTitle>
+          <CardText className="projectText">Test your working memory with this game.</CardText>
           <Row>
             <Col></Col>
             <Col></Col>
             <Col></Col>
             <Col></Col>
             <Col>
-              <Button className="Button">Demo</Button>
+              <Button href="https://lucyjulian.github.io/week-4-game/" target="_blank" className="Button">Demo</Button>
             </Col>
             <Col>
-              <Button className="Button">Github</Button>
+              <Button href="https://github.com/lucyjulian/week-4-game" target="_blank" className="Button">Github</Button>
             </Col>
             <Col></Col>
             <Col></Col>

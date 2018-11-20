@@ -176,6 +176,34 @@
   font-family: 'Oxygen', sans-serif;
 }
 
+input {
+	border: none;
+	border-bottom: 1px #818cb5 solid;
+	width: 30%;
+	height: 30px;
+	outline: none;
+	color: #818cb5;
+  background-color: #212d2c;
+  font-family: 'Oxygen', sans-serif;
+}
+
+textarea {
+  border: none;
+	border-bottom: 1px #818cb5 solid;
+  width: 30%;
+  outline: none;
+	color: #818cb5;
+  background-color: #212d2c;
+  font-family: 'Oxygen', sans-serif;
+}
+
+#submitButton {
+  color: #a8f48a;
+}
+
+#submitButton:hover {
+  color: #f2f48a;;
+}
 
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
