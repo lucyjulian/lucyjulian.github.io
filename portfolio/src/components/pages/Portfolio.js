@@ -8,6 +8,29 @@ const Portfolio = () => (
     <Container className="portfolioprojectscontainer">
       <Row>
         <Card body inverse style={{ backgroundColor: '#212d2c', borderColor: '#818cb5' }}>
+          <CardTitle className="projectTitle">Buzz'd Barbershop Booking</CardTitle>
+          <CardText className="projectText">A group project using Sequelize and a MySQL database to store booking times and client info.</CardText>
+          <Row>
+            <Col></Col>
+            <Col></Col>
+            <Col></Col>
+            <Col></Col>
+            <Col>
+              <Button href="https://fathomless-depths-99227.herokuapp.com/" target="_blank" className="Button">Demo</Button>
+            </Col>
+            <Col>
+              <Button href="https://github.com/jmyager/Buzz-d" target="_blank" className="Button">Github</Button>
+            </Col>
+            <Col></Col>
+            <Col></Col>
+            <Col></Col>
+            <Col></Col>
+          </Row>
+        </Card>
+      </Row>
+      <br></br>
+      <Row>
+        <Card body inverse style={{ backgroundColor: '#212d2c', borderColor: '#818cb5' }}>
           <CardTitle className="projectTitle">Tropical Hangman</CardTitle>
           <CardText className="projectText">A fruit themed version of the classic game we all know and love.</CardText>
           <Row>

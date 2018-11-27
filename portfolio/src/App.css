@@ -176,6 +176,25 @@
   font-family: 'Oxygen', sans-serif;
 }
 
+.myemail {
+  color: #818cb5;
+  font-family: 'Oxygen', sans-serif;
+  font-size: 28px;
+}
+.jakelink {
+  color: #818cb5;
+  font-family: 'Oxygen', sans-serif;
+}
+
+.jakeslink {
+  color: #bcbd7f;
+  font-family: 'Oxygen', sans-serif;
+}
+.jakeslink:hover {
+  color: #a8f48a;
+  font-family: 'Oxygen', sans-serif;
+}
+
 input {
 	border: none;
 	border-bottom: 1px #818cb5 solid;
@@ -202,7 +221,7 @@ textarea {
 }
 
 #submitButton:hover {
-  color: #f2f48a;;
+  color: #bcbd7f;
 }
 
 @keyframes App-logo-spin {

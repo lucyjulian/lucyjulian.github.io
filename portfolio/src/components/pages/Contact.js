@@ -4,6 +4,10 @@ const Contact = () => (
   <div>
     <p className="pagetitle">Contact Me</p>
 
+    <p className="myemail">ljulian@alumni.unc.edu</p>
+
+    <br></br>
+
     <div classnname="contactmeform">
       <form class="contactform" action="mailto:ljulian@alumni.unc.edu" method="post" enctype="text/plain">
           <p></p>
