@@ -10,7 +10,7 @@ const Home = () => (
       <Card body inverse style={{ backgroundColor: '#212d2c', borderColor: '#818cb5' }}>
         <CardTitle></CardTitle>
         <CardText>
-          <img width="25%" src={pic} alt="Card image cap" />
+          <img width="25%" src={pic} alt="Lucy" />
           <div className="boutmeblurb">
             <p className="boutmeparagraph">
               I am a full-stack developer. This year, I completed a six-month coding bootcamp at the University of North Carolina during which time I learned HTML, CSS, Node, Javascript, JQuery, AJAX & API’s, Yarn, Mocha, Chai, and my personal favorite, React.js.

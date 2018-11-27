@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 //import logo from './fotos/ljcircle.png';
 // import sig from './girlierchiller.png';
 //import sig from './fotos/ladylikelogo.png';
